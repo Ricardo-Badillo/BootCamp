@@ -3,18 +3,23 @@
     padding: 0;
     margin: 0;
 }
-
+/* created a body */
 body {
     background-color: #d9dcd6;
 }
-
+/* created a header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    font-size: 48px;
+    font-size: 30px;
+    display: inline-block;
 }
+
+header h1 {
+    display: inline-block }
+    
 
 .list {
     padding-top: 15px;
@@ -23,9 +28,11 @@ header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     list-style-type: none;
-    display: inline-block;
     margin-left: 25px;
 }
+
+.list ul li {
+    display: inline-block } 
 
 a {
     color: #ffffff;
@@ -35,7 +42,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* I was able to get the link "search engine optimization" to work */
 .hero {
     height: 800px;
     width: 100%;
@@ -173,7 +180,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* created a footer*/
 footer {
     padding: 30px;
     clear: both;
